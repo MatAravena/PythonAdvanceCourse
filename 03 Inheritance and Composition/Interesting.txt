@@ -1,0 +1,30 @@
+!Method Resolution Order
+Python follows a particular strategy for executing methods, called the method resolution order or MRO. This works as follows.
+
+-Python checks if a method is defined in the class it is called with.
+-If not, it is checked whether it is defined in the class from which it was inherited.
+-These steps are performed until the method definition is found and executed.
+-If this is not the case, we receive an error.
+
+
+Savings.__mro__
+print(Savings.__mro__)
+
+
+
+!TESTING
+raise ErrorType('Optional custom error message')
+ErrorType specifies the type of error. We've compiled the most important error types for you here.
+
+Error type	Description	Example
+TypeError	Unsupported data type	raise TypeError('My error message')
+ValueError	Correct data type but wrong value	raise ValueError('My error message')
+AttributeError	Missing attribute or method	raise AttributeError('My error message')
+AssertionError	Condition not met	raise AssertionError('My error message') or assert condition , 'My error message'
+
+
+
+@pytest.mark.parametrize('test_input, expected_output', [(input1, expected1), (input2, expected2)])
+def test_my_function(test_input, expected_output):
+    assert my_function(test_input) == expected_output
+
