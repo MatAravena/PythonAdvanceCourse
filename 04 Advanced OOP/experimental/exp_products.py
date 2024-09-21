@@ -3,8 +3,6 @@ import uuid
 
 NoneType = type(None)
 
-# Lösung:
-
 class Product():
     """
     Contains basic attributes and properties of a product.
@@ -111,8 +109,7 @@ class Product():
     def __str__(self):
         """Returns objects str representation"""
         return '{}\nPrice per week: {}'.format(self.name, self.price_per_week)
-    
-    
+
 class Laptop(Product):
     """
     Contains basic attributes of a Laptop. Subclass of Product.
@@ -127,7 +124,7 @@ class Laptop(Product):
         buyable (bool): Product's status regarding purchases. Defaults to False.
     
     """
-    
+
     # int: maximal rental time
     max_rental_time = 12
     

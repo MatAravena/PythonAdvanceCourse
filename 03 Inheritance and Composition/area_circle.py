@@ -3,7 +3,6 @@
 # def area_circle(r):
 #     return math.pi * r ** 2
 
-# Lösung:
 import math
 # Revision 1
 def area_circle(r):

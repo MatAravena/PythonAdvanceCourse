@@ -3,7 +3,6 @@ from experimental.exp_products import Product, Laptop, Phone
 from experimental.exp_store import RentalStore
 from experimental.exp_customer import Customer
 
-# Lösung:
 from collections import Counter
 
 

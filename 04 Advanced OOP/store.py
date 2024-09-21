@@ -3,7 +3,6 @@ from products import Product, Laptop, Phone
 
 NoneType = type(None) 
 
-# Lösung:
 class RentalStore():
     """
     Container to store products.

@@ -3,7 +3,6 @@ from experimental.exp_products import Product, Laptop, Phone
 
 NoneType = type(None) 
 
-# Lösung:
 from collections import Counter
 
 class RentalStore():

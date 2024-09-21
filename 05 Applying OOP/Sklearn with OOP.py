@@ -4,7 +4,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.datasets import load_iris
-
 from sklearn.base import BaseEstimator, TransformerMixin
 
 #class OwnTransformer(BaseEstimator,TransformerMixin):
@@ -143,7 +142,6 @@ features_trimmed_2.shape
 
 # Error comming from fit_transform that has been inherited from TransformerMixin
 features_trimmed, target_trimmed = outlier_remover.fit_transform(features,target)
-
 
 #class ExperimentalTransformer(BaseEstimator, TransformerMixin):
 #    def fit(self, X, y = None):

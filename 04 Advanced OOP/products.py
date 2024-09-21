@@ -3,7 +3,6 @@ import uuid
 
 NoneType = type(None)
 
-# Lösung
 class Product():
     """
     Contains basic attributes and properties of a product.

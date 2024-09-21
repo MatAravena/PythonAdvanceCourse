@@ -4,7 +4,6 @@ from experimental.exp_products import Laptop, Phone
 
 NoneType = type(None)
 
-# Lösung:
 import difflib
 import random
 
@@ -117,7 +116,6 @@ class Customer():
             print('Here is a list of products and their availability:')
             self.store.display_products()
 
-# Lösung:
     def buy(self, item_name): 
         """Buy item from store. Remove item from products in store. Does not handle monetary transactions.
         
